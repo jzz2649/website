@@ -10,5 +10,8 @@
 </head>
 <body>
     <div>this is a demo</div>
+    <script>
+        fetch('/ajax').then(res=>res.text()).then(text=>console.log(text))
+    </script>
 </body>
 </html>
